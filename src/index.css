@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .slider {
+    @apply appearance-none;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    @apply appearance-none w-4 h-4 bg-blue-600 rounded-full cursor-pointer shadow-md hover:bg-blue-700 transition-colors;
+  }
+  
+  .slider::-moz-range-thumb {
+    @apply w-4 h-4 bg-blue-600 rounded-full cursor-pointer shadow-md hover:bg-blue-700 transition-colors border-0;
+  }
+}
