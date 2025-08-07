@@ -37,6 +37,36 @@ npm test
 npm run build
 ```
 
+## Deployment
+
+### Deploy to Vercel
+
+#### Option 1: Using Vercel CLI
+
+1. Install Vercel CLI globally (if not already installed):
+```bash
+npm i -g vercel
+```
+
+2. Deploy to production:
+```bash
+npm run deploy
+```
+
+Or deploy a preview:
+```bash
+npm run deploy:preview
+```
+
+#### Option 2: Using Git Integration
+
+1. Push your code to GitHub
+2. Import the project on [Vercel](https://vercel.com/new)
+3. Vercel will automatically detect the Vite framework
+4. Deploy with default settings
+
+The app will be automatically deployed on every push to the main branch.
+
 ## Project Structure
 
 ```

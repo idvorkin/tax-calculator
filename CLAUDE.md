@@ -19,6 +19,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run lint` - Run ESLint on all JS/JSX/TS/TSX files
 - `npm run format` - Format code with Prettier
 
+### Deployment
+- `npm run deploy` - Deploy to Vercel (production)
+- `npm run deploy:preview` - Deploy preview to Vercel
+- The project includes `vercel.json` configuration for proper SPA routing
+
 ## Architecture
 
 ### Project Structure
