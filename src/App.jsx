@@ -5,7 +5,7 @@ import ScenarioTable from './components/ScenarioTable';
 import Modal from './components/Modal';
 import { calculateAllTaxes } from './lib/taxCalculations';
 import { FILING_STATUS_OPTIONS, STATE_OPTIONS, STATE_TAXES, TAX_BRACKETS } from './constants/taxRates';
-import { Settings } from 'lucide-react';
+import { Settings, Github, ExternalLink } from 'lucide-react';
 
 function App() {
   const [stockValue, setStockValue] = useState(1000000);
@@ -272,6 +272,18 @@ function App() {
           <p className="mt-2">
             Press <kbd className="px-2 py-1 bg-gray-100 border rounded">Cmd+R</kbd> to reset values
           </p>
+          <div className="mt-4 flex justify-center items-center gap-4">
+            <a 
+              href="https://github.com/idvorkin/tax-calculator" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-gray-600 hover:text-gray-900 transition-colors"
+            >
+              <Github className="h-5 w-5" />
+              <span>View on GitHub</span>
+              <ExternalLink className="h-3 w-3" />
+            </a>
+          </div>
         </footer>
       </div>
       

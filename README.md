@@ -1,6 +1,11 @@
 # Stock Tax Calculator
 
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=flat&logo=vercel)](https://tax-calculator-mu-nine.vercel.app)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue?style=flat&logo=github)](https://github.com/idvorkin/tax-calculator)
+
 A React-based web application for calculating federal and state taxes on long-term capital gains from stock sales.
+
+🚀 **Live Demo:** [https://tax-calculator-mu-nine.vercel.app](https://tax-calculator-mu-nine.vercel.app)
 
 ## Features
 
